@@ -33,10 +33,10 @@ class CoinSlotProcessor implements PaymentProcessor {
   @override
   bool pay(double amount) {
     if (coinsInserted >= amount) {
-      print("🪙 รับชำระเงินด้วยเหรียญจำนวน ฿$amount");
+      print("รับชำระเงินด้วยเหรียญจำนวน ฿$amount");
       return true;
     } else {
-      print("❌ หยอดเหรียญไม่พอ");
+      print("หยอดเหรียญไม่พอ");
       return false;
     }
   }
