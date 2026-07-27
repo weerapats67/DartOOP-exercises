@@ -60,7 +60,7 @@ void main() {
   print("\n=== ผู้ใช้เลือกหยอดเหรียญ ===\n");
 
   // TODO 3
-  PaymentProcessor method2 = CoinSlotProcessor(50.0);
+  PaymentProcessor method2 = CoinSlotProcessor(30.0);
   method2.pay(laundryFee);
   print(method2.getReceipt());
 }
